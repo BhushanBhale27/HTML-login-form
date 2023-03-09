@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Login Form</h1>
+    <form style="border: 3px solid; color: aqua; width:fit-content;">
+    <div style="padding: 30px; background-color: mediumslateblue;">
+        <label> Username : </label>
+        <input type="text" name="Username" placeholder="Enter Username" required>
+        <br>
+        <br>
+        <label> Password : </label>
+        <input type="password" name="password" placeholder="Enter Password" maxlength="8" required>
+        <br>
+        <br>
+        <label>Select your degree : </label>
+        <select id="degree" name="degrees">
+            <option value="B-tech">B-tech</option>
+            <option value="BSC">BSC</option>
+            <option value="BSC">BCA</option>
+            <option value="BSC">MCA</option>
+            <option value="BSC">BBA</option>
+
+        </select>
+        <br>
+        <br>
+        <label>Birthdate</label>
+        <input type="date" name="birtdate">
+        <br>
+        <br>
+        <label>Enter your email</label>
+        <input type="email" name="email required">
+        <br>
+        <br>
+        <label>Submit your pan card photo</label>
+        <input type="file" name="pan card photo" required>
+        <br>
+        <br>
+        <input type="checkbox" checked="checked">Remember me
+        <br>
+        <br>
+        <button>Login</button>
+        <button>Cancel</button>
+        <br>
+        <br>
+
+        <a href="#">Forget Password</a><br>
+        <a href="signin.html">New user? Register here..</a>
+        
+    </div>
+
+    </form>
+</body>
+</html>
